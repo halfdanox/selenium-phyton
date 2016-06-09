@@ -24,7 +24,7 @@ driver.find_element_by_id("LinkButton1").click()
 
 ab=driver.find_element_by_xpath(".//*[@id='dvOzgecmis']/ul/li[1]/span[4]/a")
 ActionChains(driver).move_to_element(ab).perform()
-driver.implicitly_wait(3)
+driver.implicitly_wait(5)
 
 
 time.sleep(3)
