@@ -16,8 +16,8 @@ driver = webdriver.Chrome('D:/Users/btan/workspace/Basic/com/introduction/chrome
 driver.get("http://kariyer.net")
 driver.find_element_by_xpath(".//*[@id='index-page']/body/div[2]/div[1]/button").click()
 driver.find_element_by_xpath(".//*[@id='Header']/div[2]/div[2]/div/div[1]/a[2]").click()
-driver.find_element_by_id("lgnUserName").send_keys("halfdanox")
-driver.find_element_by_id("lgnPassword").send_keys("3154163")
+driver.find_element_by_id("lgnUserName").send_keys("username")
+driver.find_element_by_id("lgnPassword").send_keys("password")
 driver.find_element_by_id("LinkButton1").click()
 
 
