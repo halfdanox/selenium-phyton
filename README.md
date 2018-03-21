@@ -1,3 +1,3 @@
 # selenium-phyton
 
-Bir kaç sitenin örnek basit test otomasyonları
+example from one of the websites 
